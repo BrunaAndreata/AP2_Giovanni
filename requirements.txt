@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pytest
+pytest-cov
+pytest-bdd
+pytest-mock
+tavern
+selenium
+httpx
+python-multipart
+PyYAML
+requests
