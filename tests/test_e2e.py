@@ -4,6 +4,8 @@ import requests
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 import uvicorn
 from main import app
@@ -53,6 +55,7 @@ def test_compra_e2e():
     options.add_argument("--disable-dev-shm-usage")
 
     driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
         options=options
     )
 

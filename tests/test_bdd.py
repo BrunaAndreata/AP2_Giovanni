@@ -4,7 +4,7 @@ from pathlib import Path
 
 FEATURES = Path(__file__).parent / "features"
 
-scenarios(str(FEATURES / "compra_sucesso.feature"))
+scenarios(str(FEATURES / "comprar_produto.feature"))
 
 
 @given(
