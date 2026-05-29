@@ -10,3 +10,4 @@ httpx
 python-multipart
 PyYAML
 requests
+webdriver-manager
